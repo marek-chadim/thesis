@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep figure/output formats out of language statistics
+*.ps linguist-detectable=false
+*.eps linguist-detectable=false
