@@ -10,7 +10,7 @@ The fully reproducible raw-data-to-paper pipeline for the current working paper 
 - `MScThesis.pdf`, `MScSlides.pdf` — MSc thesis (Stockholm School of Economics, 2024) and defense slides
 - `BScThesis.pdf` — BSc thesis (Charles University, 2023)
 - `MarkupsProcurement/` — MSc thesis analysis outputs (descriptive statistics, selection-on-observables designs, models for unobserved factors)
-- `*.png` — exported thesis figures
+- `figures/` — exported thesis figures
 
 ## MSc thesis, Stockholm School of Economics (2024). DOI: [hhs.primo.exlibrisgroup.com](https://hhs.primo.exlibrisgroup.com/permalink/46SSOE_INST/hejhp1/alma991001619398206056)
 
