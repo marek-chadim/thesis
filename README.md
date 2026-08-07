@@ -1,9 +1,7 @@
 # Markups and Public Procurement
 
-Thesis PDFs, slides, and figures for **"Markups and Public Procurement: Evidence from Czech Construction Tenders."**
-The fully reproducible raw-data-to-paper pipeline for the current working paper lives at
-[markups-procurement](https://github.com/marek-chadim/markups-procurement); the latest materials are on
-[marek-chadim.github.io](https://marek-chadim.github.io/research.html).
+Thesis PDFs, slides, analysis code, and figures for **"Markups and Public Procurement: Evidence from Czech Construction Tenders."**
+The latest materials are on [marek-chadim.github.io](https://marek-chadim.github.io/research.html).
 
 ## Contents
 
