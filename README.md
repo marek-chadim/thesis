@@ -7,7 +7,7 @@ The latest materials are on [marek-chadim.github.io](https://marek-chadim.github
 
 - `MScThesis.pdf`, `MScSlides.pdf` — MSc thesis (Stockholm School of Economics, 2024) and defense slides
 - `BScThesis.pdf` — BSc thesis (Charles University, 2023)
-- `MarkupsProcurement/` — MSc thesis analysis outputs (descriptive statistics, selection-on-observables designs, models for unobserved factors)
+- `MarkupsProcurement/` — MSc thesis analysis code and outputs in Stata and R (descriptive statistics, selection-on-observables designs, models for unobserved factors)
 - `figures/` — exported thesis figures
 
 ## MSc thesis, Stockholm School of Economics (2024). DOI: [hhs.primo.exlibrisgroup.com](https://hhs.primo.exlibrisgroup.com/permalink/46SSOE_INST/hejhp1/alma991001619398206056)
