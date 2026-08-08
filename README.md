@@ -10,7 +10,7 @@ Czech Construction Tenders."** The latest materials are on
 - `BScThesis.pdf` — BSc thesis (Charles University, 2023)
 - `MarkupsProcurement/` — MSc thesis analysis: R and Stata code, data preparation, and the outputs it
   produces (descriptive statistics, selection-on-observables designs, models for unobserved factors)
-- `*.png` — exported thesis figures
+- `figures/` — exported thesis figures
 
 ## MSc thesis, Stockholm School of Economics (2024). DOI: [hhs.primo.exlibrisgroup.com](https://hhs.primo.exlibrisgroup.com/permalink/46SSOE_INST/hejhp1/alma991001619398206056)
 
