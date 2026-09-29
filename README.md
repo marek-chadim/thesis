@@ -6,11 +6,11 @@ Czech Construction Tenders."** The latest materials are on
 
 ## Contents
 
-- `MScThesis.pdf`, `MScSlides.pdf` — MSc thesis (Stockholm School of Economics, 2024) and defense slides
-- `BScThesis.pdf` — BSc thesis (Charles University, 2023)
-- `MarkupsProcurement/` — MSc thesis analysis: R and Stata code, data preparation, and the outputs it
+- `MScThesis.pdf`, `MScSlides.pdf`: MSc thesis (Stockholm School of Economics, 2024) and defense slides
+- `BScThesis.pdf`: BSc thesis (Charles University, 2023)
+- `MarkupsProcurement/`: MSc thesis analysis, with R and Stata code, data preparation, and the outputs it
   produces (descriptive statistics, selection-on-observables designs, models for unobserved factors)
-- `figures/` — exported thesis figures
+- `figures/`: exported thesis figures
 
 ## MSc thesis, Stockholm School of Economics (2024). DOI: [hhs.primo.exlibrisgroup.com](https://hhs.primo.exlibrisgroup.com/permalink/46SSOE_INST/hejhp1/alma991001619398206056)
 
@@ -18,7 +18,7 @@ Czech Construction Tenders."** The latest materials are on
 
 ## Bachelor's thesis, Charles University in Prague (2023). DOI: [dspace.cuni.cz](https://dspace.cuni.cz/handle/20.500.11956/184831)
 
-For my undergraduate thesis, I estimated production functions for firms in the Czech construction sector, addressing endogeneity in productivity shocks and variable input usage using the control function approach and GMM. A key contribution of this work was the creation of a novel dataset as well as the structural inference of the markup distribution.
+For my undergraduate thesis, I estimated production functions for firms in the Czech construction sector, addressing endogeneity in productivity shocks and variable input usage using the control function approach and GMM. It built the firm-level dataset and inferred the markup distribution.
 
 ### References
 
