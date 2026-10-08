@@ -12,13 +12,13 @@ Czech Construction Tenders."** The latest materials are on
   produces (descriptive statistics, selection-on-observables designs, models for unobserved factors)
 - `figures/`: exported thesis figures
 
-## MSc thesis, Stockholm School of Economics (2024). DOI: [hhs.primo.exlibrisgroup.com](https://hhs.primo.exlibrisgroup.com/permalink/46SSOE_INST/hejhp1/alma991001619398206056)
+## MSc thesis, Stockholm School of Economics (2024). Library record: [hhs.primo.exlibrisgroup.com](https://hhs.primo.exlibrisgroup.com/permalink/46SSOE_INST/hejhp1/alma991001619398206056)
 
 **Abstract.** This paper analyzes the effect of public procurement on firm markups, using a panel dataset of Czech construction firms from 2006 to 2021. Markups are estimated through a structural framework, while biases are addressed using a selection on observables design and models for unobserved factors. Propensity score-based estimations indicate that firm markups increase by approximately 15% during contract years. A temporal analysis, employing synthetic control and matrix completion methods, reveals that treatment effects decline from around 30% in 2006 to 10% in 2021. These patterns are consistent with institutional improvements in the Czech Republic and offer empirical evidence of increasing efficiency in public spending.
 
-## Bachelor's thesis, Charles University in Prague (2023). DOI: [dspace.cuni.cz](https://dspace.cuni.cz/handle/20.500.11956/184831)
+## Bachelor's thesis, Charles University in Prague (2023). Repository record: [dspace.cuni.cz](https://dspace.cuni.cz/handle/20.500.11956/184831)
 
-For my undergraduate thesis, I estimated production functions for firms in the Czech construction sector, addressing endogeneity in productivity shocks and variable input usage using the control function approach and GMM. It built the firm-level dataset and inferred the markup distribution.
+For my undergraduate thesis, I estimated production functions for firms in the Czech construction sector, addressing endogeneity in productivity shocks and variable input usage using the control function approach and GMM. I built the firm-level dataset and inferred the markup distribution.
 
 ### References
 
