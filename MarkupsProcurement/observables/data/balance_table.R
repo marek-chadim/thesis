@@ -1,7 +1,8 @@
 #install.packages("haven")
 gc()
 rm(list=ls())
-setwd("/Users/marek/Library/CloudStorage/Dropbox/Markups-and-Public-Procurement/MarkupsProcurement/observables")
+# Run from the folder MarkupsProcurement/observables of this repository (paths below are relative to it),
+# for example: setwd("MarkupsProcurement/observables") after opening R at the repository root.
 d <- read.csv("data/data.csv")
 dim(d)
 dim(d)

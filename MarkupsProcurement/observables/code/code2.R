@@ -2,7 +2,8 @@
 ## Estimating the Effects of Contracts on Price markups
 gc()
 rm(list = ls())
-setwd("/Users/marek/Library/CloudStorage/Dropbox/Markups-and-Public-Procurement/MarkupsProcurement/observables")
+# Run from the folder MarkupsProcurement/observables of this repository (paths below are relative to it),
+# for example: setwd("MarkupsProcurement/observables") after opening R at the repository root.
 source("code/functions_est.R")
 source("code/functions_plot.R")
 
@@ -148,7 +149,7 @@ for (i in 1:length(outcomes)) {
 pdf("graphs/s_dyn.pdf", width = 7, height = 5)
 par(mar = c(4, 4, 1, 2))
 plot(1, xlim = c(3.7, 9.3), ylim = c(-.1, .3), type = "n", axes = FALSE, 
-    ylab = "Effects on Markups (percentage)", xlab = "Year Relative to Contract")
+    ylab = "Effects on Markups (log points)", xlab = "Year Relative to Contract")
 box(); axis(2)
 axis(1, at = 4:9, labels = c(-3:2))
 abline(h = 0, v= 6.5, col = "gray60", lty = 2, lwd = 2)
@@ -167,7 +168,7 @@ graphics.off()
 pdf("graphs/s2_dyn.pdf", width = 7, height = 5)
 par(mar = c(4, 4, 1, 2))
 plot(1, xlim = c(3.7, 9.3), ylim = c(-.1, .3), type = "n", axes = FALSE, 
-    ylab = "Effects on Markups (percentage)", xlab = "Year Relative to Contract")
+    ylab = "Effects on Markups (log points)", xlab = "Year Relative to Contract")
 box(); axis(2)
 axis(1, at = 4:9, labels = c(-3:2))
 abline(h = 0, v= 6.5, col = "gray60", lty = 2, lwd = 2)
@@ -222,7 +223,7 @@ for (i in 1:length(outcomes)) {
 pdf("graphs/s_catt.pdf", width = 7, height = 5)
 par(mar = c(4, 4, 1, 2))
 plot(1, xlim = c(3.7, 9.7), ylim = c(-1.5, 1.5), type = "n", axes = FALSE, 
-    ylab = "Effects on Markups (percentage)", xlab = "Year Relative to Contract")
+    ylab = "Effects on Markups (log points)", xlab = "Year Relative to Contract")
 box(); axis(2)
 axis(1, at = 4:9, labels = c(-3:2))
 abline(h = 0, v= 6.5, col = "gray60", lty = 2, lwd = 1.5)

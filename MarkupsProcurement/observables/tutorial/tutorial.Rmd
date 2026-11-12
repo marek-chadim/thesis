@@ -152,7 +152,7 @@ ATT Results Visualization:
 ```{r, out.width='100%', fig.asp=1, fig.cap="9(A) and (B). ATT Estimates: IRS Data"}
 par(mfrow = c(1,1))
 plot(1, xlim = c(3.7, 9.3), ylim = c(-.1, .225), type = "n", axes = FALSE, 
-    ylab = "Effects on Markups (percentage)", xlab = "Year Relative to Contract")
+    ylab = "Effects on Markups (log points)", xlab = "Year Relative to Contract")
 box(); axis(2)
 axis(1, at = 4:9, labels = c(-3:2))
 abline(h = 0, v= 6.5, col = "gray60", lty = 2, lwd = 2)
@@ -200,7 +200,7 @@ In both plots, the years before winning (Years -3, -2, and -1) serve as the plac
 par(mfrow = c(1,1))
 par(mar = c(4, 4, 1, 2))
 plot(1, xlim = c(3.7, 9.7), ylim = c(-1.5, 1.5), type = "n", axes = FALSE, 
-    ylab = "Effects on Markups (percentage)", xlab = "Year Relative to Contract")
+    ylab = "Effects on Markups (log points)", xlab = "Year Relative to Contract")
 box(); axis(2)
 axis(1, at = 4:9, labels = c(-3:2))
 abline(h = 0, v= 6.5, col = "gray60", lty = 2, lwd = 1.5)

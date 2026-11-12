@@ -5,7 +5,8 @@ library(haven)
 library(augsynth)
 library(SCtools)
 
-setwd("/Users/marek/Library/CloudStorage/Dropbox/Markups-and-Public-Procurement/MarkupsProcurement/unobservables")
+# Run from the folder MarkupsProcurement/unobservables of this repository (paths below are relative to it),
+# for example: setwd("MarkupsProcurement/unobservables") after opening R at the repository root.
 data <- read.csv("data/panel.csv") 
 data %>%
     filter(!i %in% c(6,7,12,14,16,18)) %>%

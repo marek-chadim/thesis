@@ -6,7 +6,8 @@
 ## Estimation
 gc()
 rm(list = ls())
-setwd("/Users/marek/Library/CloudStorage/Dropbox/Markups-and-Public-Procurement/MarkupsProcurement/observables")
+# Run from the folder MarkupsProcurement/observables of this repository (paths below are relative to it),
+# for example: setwd("MarkupsProcurement/observables") after opening R at the repository root.
 source("code/functions_est.R")
 source("code/functions_plot.R")
 
@@ -138,9 +139,12 @@ mod <- lm(fml, data = d)
 summary(mod)
 
 bm <- c("markup_1yr_before")
-sens <- sensemakr(model = mod, treatment = treat, benchmark_covariates = bm, kd = 1:3, sensitivity.of = "t-value")
+sens <- sensemakr(model = mod, treatment = treat, benchmark_covariates = bm, kd = 1:3)
+# The contour plot below is of the point estimate, the default of plot.sensemakr() and the figure in the paper.
+# Readable point labels in the figure: "1x lagged markup", not the variable name
+sens$bounds$bound_label <- gsub("markup_1yr_before", "lagged markup", sens$bounds$bound_label, fixed = TRUE)
 pdf("graphs/d_sens.pdf", width = 7, height = 7)
-plot(sens)
+plot(sens, cex.label.text = 0.8)  # sensemakr's default is 0.7; at 0.9 the labels cross the plot border in the pdf() device
 graphics.off()
 
 
